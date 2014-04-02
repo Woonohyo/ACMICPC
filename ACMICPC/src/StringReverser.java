@@ -8,7 +8,6 @@ public class StringReverser {
 
 	public static String reverseWords(String inputStr) {
 		StringBuilder sb = new StringBuilder();
-		inputStr = inputStr.trim();
 		inputStr = inputStr.replaceAll(" +", " ");
 
 		String reversedStr = new StringBuilder(inputStr).reverse().toString();
@@ -17,7 +16,6 @@ public class StringReverser {
 			sb.append(" ");
 		}
 		String resultStr = sb.toString().trim();
-		System.out.println(resultStr);
 		return resultStr;
 	}
 }

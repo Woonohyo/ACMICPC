@@ -5,8 +5,12 @@ public class Main {
 		 //StringReverser("This is a test string");
 		 //DistributedProcessing distProcess = new DistributedProcessing();
 		 
-		 SingleNumberFinder singleNumber = new SingleNumberFinder();
-		 int[] numArr = {1, 2, 2, 3, 3, 4, 4, 5, 5};
-		 int singleNum = singleNumber.singleNumber(numArr);
+//		 SingleNumberFinder singleNumber = new SingleNumberFinder();
+//		 int[] numArr = {1, 2, 2, 3, 3, 4, 4, 5, 5};
+//		 int singleNum = singleNumber.singleNumber(numArr);
+		
+		IntegerReverser intReverse = new IntegerReverser();
+		int answer = intReverse.reverse(-123);
+		System.out.println(answer);
 	}
 }
